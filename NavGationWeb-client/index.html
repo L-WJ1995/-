@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <link rel='stylesheet' href='/stylesheets/css/ele.css'>
+  <link rel='stylesheet' href='/stylesheets/index.css'>
+  <title>HUO123</title>
+</head>
+<body>
+  <div id='NavWeb'>
+    <transition name="el-fade-in">
+      <el-container v-show='show'>
+        <el-header>
+          <nav-header></nav-header>  
+        </el-header>
+        <el-main>
+          <nav-main></nav-main> 
+        </el-main>
+        <el-footer>
+          <nav-footer></nav-footer>  
+        </el-footer>
+      </el-container>
+    </transition> 
+  </div>
+  <script src="/javascripts/vuex.js"></script>
+  <script src="/javascripts/vue-2.5.17.js"></script>
+  <script src="/javascripts/vue-router-3.0.1.js"></script>
+  <script src="/javascripts/axios.min.js"></script>
+  <script src="/javascripts/index.js"></script>
+  <script src="/javascripts/components.js"></script>
+  <script src="/javascripts/ele.js"></script>
+  <script>
+    const store = new Vuex.Store({
+    state: {
+      show_status:0,
+    },
+    mutations: {
+      setShow_status(state){
+        state.show_status += 1
+/*        if (state.show_status === 6) {
+          state.show_status = true
+        }*/
+      }
+    }
+  })
+
+/*  const router = new VueRouter({mode: 'history',routes})
+
+  router.beforeEach((to, from, next) => {
+
+    if (to.path === '/' && store.state.loginStatus) next({path:'/home'})
+    else if(to.path !== '/' && !store.state.loginStatus) next({path:'/'})
+    else {
+      if (to.name in store.state.currentOption) store.commit('setCurrentOption', to.name)
+      next()
+    }
+  })*/
+
+  const NavServer = new Vue({
+    el: '#NavWeb',
+    components: {
+      navHeader,
+      navMain,
+      navFooter,
+    },
+    store,
+    data(){
+      return{
+        
+      }
+    },
+    created() {
+      
+    },
+    methods: {
+
+    },
+    watch: {
+      
+    },
+    computed:{
+      show:function(){
+        return this.$store.state.show_status === 6
+      },
+    },
+    
+  })
+  </script>
+</body>
+</html>

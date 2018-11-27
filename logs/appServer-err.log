@@ -1,0 +1,214 @@
+2018-11-26 17:39:29: Warning: connect.session() MemoryStore is not
+2018-11-26 17:39:29: designed for a production environment, as it will leak
+2018-11-26 17:39:29: memory, and will not scale past a single process.
+2018-11-26 17:40:04: Warning: connect.session() MemoryStore is not
+2018-11-26 17:40:04: designed for a production environment, as it will leak
+2018-11-26 17:40:04: memory, and will not scale past a single process.
+2018-11-26 17:41:16: Warning: connect.session() MemoryStore is not
+2018-11-26 17:41:16: designed for a production environment, as it will leak
+2018-11-26 17:41:16: memory, and will not scale past a single process.
+2018-11-26 17:49:43: Warning: connect.session() MemoryStore is not
+2018-11-26 17:49:43: designed for a production environment, as it will leak
+2018-11-26 17:49:43: memory, and will not scale past a single process.
+2018-11-26 17:53:28: Warning: connect.session() MemoryStore is not
+2018-11-26 17:53:28: designed for a production environment, as it will leak
+2018-11-26 17:53:28: memory, and will not scale past a single process.
+2018-11-26 17:53:36: ReferenceError: router is not defined
+2018-11-26 17:53:36:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:36:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:36:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:36:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:36:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:36:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:36:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:36:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:36:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:36:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:37: ReferenceError: router is not defined
+2018-11-26 17:53:37:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:37:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:37:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:37:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:37:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:37:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:37:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:37:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:37:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:37:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:38: ReferenceError: router is not defined
+2018-11-26 17:53:38:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:38:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:38:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:38:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:38:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:38:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:38:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:38:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:38:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:38:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:39: ReferenceError: router is not defined
+2018-11-26 17:53:39:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:39:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:39:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:39:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:39:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:39:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:39:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:39:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:39:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:39:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:40: ReferenceError: router is not defined
+2018-11-26 17:53:40:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:40:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:40:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:40:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:40:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:40:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:40:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:40:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:40:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:40:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:41: ReferenceError: router is not defined
+2018-11-26 17:53:41:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:41:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:41:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:41:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:41:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:41:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:41:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:41:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:41:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:41:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:42: ReferenceError: router is not defined
+2018-11-26 17:53:42:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:42:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:42:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:42:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:42:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:42:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:42:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:42:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:42:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:42:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:43: ReferenceError: router is not defined
+2018-11-26 17:53:43:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:43:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:43:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:43:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:43:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:43:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:43:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:43:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:43:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:43:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:44: ReferenceError: router is not defined
+2018-11-26 17:53:44:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:44:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:44:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:44:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:44:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:44:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:44:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:44:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:44:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:44:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:45: ReferenceError: router is not defined
+2018-11-26 17:53:45:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:45:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:45:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:45:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:45:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:45:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:45:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:45:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:45:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:45:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:46: ReferenceError: router is not defined
+2018-11-26 17:53:46:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:46:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:46:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:46:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:46:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:46:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:46:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:46:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:46:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:46:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:47: ReferenceError: router is not defined
+2018-11-26 17:53:47:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:47:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:47:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:47:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:47:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:47:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:47:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:47:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:47:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:47:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:48: ReferenceError: router is not defined
+2018-11-26 17:53:48:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:48:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:48:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:48:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:48:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:48:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:48:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:48:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:48:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:48:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:49: ReferenceError: router is not defined
+2018-11-26 17:53:49:     at Object.<anonymous> (C:\Users\Administrator\Desktop\NavGationWeb-Project\appServer.js:50:1)
+2018-11-26 17:53:49:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:49:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:49:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:53:49:     at tryModuleLoad (internal/modules/cjs/loader.js:538:12)
+2018-11-26 17:53:49:     at Function.Module._load (internal/modules/cjs/loader.js:530:3)
+2018-11-26 17:53:49:     at Object.<anonymous> (C:\Users\Administrator\AppData\Roaming\npm\node_modules\pm2\lib\ProcessContainerFork.js:48:21)
+2018-11-26 17:53:49:     at Module._compile (internal/modules/cjs/loader.js:689:30)
+2018-11-26 17:53:49:     at Object.Module._extensions..js (internal/modules/cjs/loader.js:700:10)
+2018-11-26 17:53:49:     at Module.load (internal/modules/cjs/loader.js:599:32)
+2018-11-26 17:54:36: Warning: connect.session() MemoryStore is not
+2018-11-26 17:54:36: designed for a production environment, as it will leak
+2018-11-26 17:54:36: memory, and will not scale past a single process.
+2018-11-26 17:54:51: Warning: connect.session() MemoryStore is not
+2018-11-26 17:54:51: designed for a production environment, as it will leak
+2018-11-26 17:54:51: memory, and will not scale past a single process.
+2018-11-26 17:54:54: Warning: connect.session() MemoryStore is not
+2018-11-26 17:54:54: designed for a production environment, as it will leak
+2018-11-26 17:54:54: memory, and will not scale past a single process.
+2018-11-26 17:55:01: Warning: connect.session() MemoryStore is not
+2018-11-26 17:55:01: designed for a production environment, as it will leak
+2018-11-26 17:55:01: memory, and will not scale past a single process.
+2018-11-26 18:00:05: Warning: connect.session() MemoryStore is not
+2018-11-26 18:00:05: designed for a production environment, as it will leak
+2018-11-26 18:00:05: memory, and will not scale past a single process.
+2018-11-26 18:06:16: Warning: connect.session() MemoryStore is not
+2018-11-26 18:06:16: designed for a production environment, as it will leak
+2018-11-26 18:06:16: memory, and will not scale past a single process.
+2018-11-26 18:06:30: Warning: connect.session() MemoryStore is not
+2018-11-26 18:06:30: designed for a production environment, as it will leak
+2018-11-26 18:06:30: memory, and will not scale past a single process.
+2018-11-26 18:06:33: Warning: connect.session() MemoryStore is not
+2018-11-26 18:06:33: designed for a production environment, as it will leak
+2018-11-26 18:06:33: memory, and will not scale past a single process.
+2018-11-26 18:06:36: Warning: connect.session() MemoryStore is not
+2018-11-26 18:06:36: designed for a production environment, as it will leak
+2018-11-26 18:06:36: memory, and will not scale past a single process.
+2018-11-26 18:06:48: Warning: connect.session() MemoryStore is not
+2018-11-26 18:06:48: designed for a production environment, as it will leak
+2018-11-26 18:06:48: memory, and will not scale past a single process.
+2018-11-26 18:07:00: Warning: connect.session() MemoryStore is not
+2018-11-26 18:07:00: designed for a production environment, as it will leak
+2018-11-26 18:07:00: memory, and will not scale past a single process.
+2018-11-26 18:07:10: Warning: connect.session() MemoryStore is not
+2018-11-26 18:07:10: designed for a production environment, as it will leak
+2018-11-26 18:07:10: memory, and will not scale past a single process.
+2018-11-26 18:07:26: Warning: connect.session() MemoryStore is not
+2018-11-26 18:07:26: designed for a production environment, as it will leak
+2018-11-26 18:07:26: memory, and will not scale past a single process.
+2018-11-26 18:21:10: Warning: connect.session() MemoryStore is not
+2018-11-26 18:21:10: designed for a production environment, as it will leak
+2018-11-26 18:21:10: memory, and will not scale past a single process.
+2018-11-26 18:22:57: Warning: connect.session() MemoryStore is not
+2018-11-26 18:22:57: designed for a production environment, as it will leak
+2018-11-26 18:22:57: memory, and will not scale past a single process.

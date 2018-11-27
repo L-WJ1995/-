@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>HUO123后台管理系统</title>
+  <link rel='stylesheet' href='/stylesheets/css/bootstrap.css'>
+  <link rel='stylesheet' href='/stylesheets/index.css'>
+  <link rel='stylesheet' href='/stylesheets/css/ele.css'>
+  <link rel='stylesheet' href='/stylesheets/home.css'>
+  <style>
+    [v-cloak] {
+      display: none !important;
+    }
+  </style>
+</head>
+<body>
+  <div id='NavServer'> 
+    <router-view ></router-view >
+    <modal-box></modal-box>
+    <!--     <router-view ref='son' 
+    :contents='contents' 
+    >  -->
+  </div>
+</body>
+<script src="/javascripts/vuex.js"></script>
+<script src="/javascripts/vue-2.5.17.js"></script>
+<script src="/javascripts/vue-router-3.0.1.js"></script>
+<script src="/javascripts/axios.min.js"></script>
+<script src="/javascripts/jquery.min.js"></script>
+<script src="/javascripts/bootstrap.js"></script>
+<script src="/javascripts/index.js"></script>
+<script src="/javascripts/components.js"></script>
+<script src="/javascripts/routes.js"></script>
+<script src="/javascripts/ele.js"></script>
+<script>
+  const store = new Vuex.Store({
+    state: {
+      BoxShow:true,
+      loginStatus:false,
+      modalText:{title:'', text:'', class:{"btn":true,
+                                           "btn-block":true,
+                                           "btn-warning":true,
+                                           "btn-success":true,}
+      },
+      currentOption:{
+        current:"",
+        hotSpor: "",
+        startArticle: "",
+        digitalCurrency: "",
+        technicalArticle: "",
+        mediaSection: "",
+        expert: "",
+        clickBox:"",
+        FieldNames:[],
+      },
+    },
+    mutations: {
+      setTableBoxShow (state) {
+        state.TableBoxShow = !state.TableBoxShow
+      },
+      setLoginStatus (state, status) {
+        state.loginStatus = status
+      },
+      setModalText (state, obj) {
+        state.modalText = obj
+      },
+      setCurrentOption (state, key) {
+        let FieldNames = []
+        switch(key) {
+          case 'clickBox：': 
+            FieldNames = ['section  ','clickSums', 'date']
+            break;
+          case 'digitalCurrency': 
+            FieldNames = ['icon','title', 'URL']
+            break;
+          case 'expert':
+            FieldNames = ['title', 'URL', 'img', 'text']
+            break;
+          case 'hotSpor': 
+          case 'startArticle':
+          case 'technicalArticle':
+          case 'mediaSection':
+            FieldNames = ['title', 'URL']
+            break;
+        }
+        state.currentOption = {
+                                FieldNames:FieldNames,
+                                current:key,        
+                                hotSpor: "",
+                                startArticle: "",
+                                digitalCurrency: "",
+                                technicalArticle: "",
+                                mediaSection: "",
+                                expert: "",
+                                clickBox:'',
+                              },
+        state.currentOption[key] = 'background-color: rgba(35,190,230,.3);'
+      },
+    }
+  })
+
+  const router = new VueRouter({mode: 'history',routes})
+
+  router.beforeEach((to, from, next) => {
+
+    if (to.path === '/' && store.state.loginStatus) next({path:'/home'})
+    else if(to.path !== '/' && !store.state.loginStatus) next({path:'/'})
+    else {
+      if (to.name in store.state.currentOption) store.commit('setCurrentOption', to.name)
+      next()
+    }
+  })
+
+  const NavServer = new Vue({
+    el: '#NavServer',
+    store,
+    router,
+    components: {
+      'modal-box':modalBox,
+    },
+    created() {
+      
+    },
+    methods: {
+
+    },
+    watch: {
+      
+    },
+    computed:{
+      
+    },
+    
+  })
+
+</script>
+
+</html>

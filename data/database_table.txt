@@ -1,0 +1,45 @@
+板块名	       表名              字段
+
+热点板块     hotSpor           id  title  url UpdateTime
+  
+入门板块     startArticle      id  title  url UpdateTime
+ 
+数字货币     digitalCurrency   id  title  url UpdateTime icoPath
+
+技术板块     technicalArticle  id  title  url UpdateTime
+
+媒体板块     mediaSection      id  title  url UpdateTime
+
+专家说板块   expert            id  title  url UpdateTime imgPath text 
+
+
+点击版块    clickBox  id  section  clickSums
+
+
+每日点击 	
+	click_hotSpor   				id  date  clickSums
+	click_startArticle      id  date  clickSums
+	click_digitalCurrency   id  date  clickSums
+	click_technicalArticle  id  date  clickSums
+	click_mediaSection      id  date  clickSums
+	click_expert            id  date  clickSums
+	click_platform          id  date  clickSums
+	click_agency            id  date  clickSums
+	click_mining            id  date  clickSums
+	click_wallet            id  date  clickSums
+	click_community         id  date  clickSums
+
+
+CREATE TABLE click_community(id INTEGER PRIMARY KEY AUTOINCREMENT, date  TEXT NOT NULL, clickSums INTEGER  NOT NULL);
+
+待加入 
+
+平台推荐    platform            id    title  url  UpdateTime icoPath       
+
+投资机构    agency              id    title  url  UpdateTime icoPath     
+
+矿业       mining              id    title  url  UpdateTime icoPath      
+
+钱包	      wallet              id    title  url  UpdateTime icoPath     	
+
+交流社区   community           id    title  url  UpdateTime icoPath     

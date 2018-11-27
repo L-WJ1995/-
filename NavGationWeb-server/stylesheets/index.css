@@ -1,0 +1,68 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+body {
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif; }
+
+li {
+  list-style-type: none; }
+
+a {
+  color: #00B7FF; }
+
+html, body {
+  width: 100%;
+  height: 100%;
+  min-width: 1350px; }
+
+#loginBox {
+  white-space: nowrap;
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  width: 100%;
+  height: 100%;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+#loginBox .container {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 600px; }
+
+#loginBox .container #captcha_img {
+  background-color: white;
+  border-radius: 5px; }
+
+@media (min-width: 1200px) {
+  #loginBox #form {
+    width: 25%; } }
+@media (min-width: 768px) {
+  #loginBox .container {
+    width: 35%; }
+
+  #loginBox #form {
+    width: 100%;
+    margin-left: -50px; } }
+@media (max-width: 950px) {
+  #loginBox .container, #loginBox .container #form {
+    width: 80%; } }
+#captcha_img {
+  vertical-align: middle; }
+
+#captcha_img svg {
+  margin-top: -3px; }
+
+/*# sourceMappingURL=index.css.map */
